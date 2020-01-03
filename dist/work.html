@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Enio Jergović</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav class="navigation">
@@ -14,9 +17,9 @@
                 <a href="index.html"><img src="img/logo-white.svg" alt="" class="logo"></a>
             </div>
             <ul class="menu">
-                <li class="menu-item"><a href="work.html">Work</a></li>
+                <li class="menu-item"><a href="#" class="active" style="color:#FEE4B7">Work</a></li>
                 <li class="menu-item"><a href="about.html">About me</a></li>
-                <li class="menu-item"><a href="#" class="active"  style="color:#FEE4B7">Contact</a></li>
+                <li class="menu-item"><a href="contact.html">Contact</a></li>
             </ul>
             <ul class="social">
                 <li class="menu-social"><a href="#"><img src="img/be-white.svg" alt=""></a></li>
@@ -25,8 +28,45 @@
             </ul>
         </nav>
     </header>
+    <section class="work">
+        <div class="work-container">
+            <div class="work-text">
+                <h1>My Work</h1>
+                <h4>Most of my work, from personal to client projects, you can find on Dribbble and Behance, but here you
+                    can find some of my selected and latest work.</h4>
+            </div>
+    
+            <div class="projects">
+                <a href="projects/project1.html">
+                    <div class="project" data-aos="fade-up" data-aos-duration="1350" style="background-color: #AFAFAF;">
+                    </div>
+                </a>
+                <a href="projects/project2.html">
+                    <div class="project" data-aos="fade-up" data-aos-duration="1350" style="background-color: #959595;">
+                    </div>
+                </a>
+                <a href="projects/project3.html">
+                    <div class="project" data-aos="fade-up" data-aos-duration="1350" style="background-color: #959595;">
+                    </div>
+                </a>
+                <a href="projects/project4.html">
+                    <div class="project" data-aos="fade-up" data-aos-duration="1350" style="background-color: #AFAFAF;">
+                    </div>
+                </a>
+                <a href="projects/project5.html">
+                    <div class="project" data-aos="fade-up" data-aos-duration="1350" style="background-color: #AFAFAF;">
+                    </div>
+                </a>
+                <a href="projects/project6.html">
+                    <div class="project" data-aos="fade-up" data-aos-duration="1350" style="background-color: #959595;">
+                    </div>
+                </a>
+    
+            </div>
+        </div>
+    </section>
 
-    <section class="contact contact-page">
+    <section class="contact" id="contact_section">
         <div class="contact-text">
             <h1>Contact</h1>
             <h4>If you like what I do, feel free to contact me via e-mail, or check my social media links. </h4>
@@ -59,5 +99,19 @@
             <p>&copy;2020 Enio Jergović. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+        });
+
+        const klik = () => {
+            const contactPage = document.getElementById('contact_section')
+            contactPage.scrollIntoView({ behavior: 'smooth', /* block: 'start', inline: 'start'  */});
+        };
+
+    </script>
 </body>
+
 </html>
