@@ -569,7 +569,8 @@ footer {
   }
 
   .intro{
-    height: 40vh;
+    height: auto;
+    margin-bottom: 4rem;
   }
 
   .intro-text h1 {
