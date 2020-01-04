@@ -650,6 +650,7 @@ footer {
   .contact-icon a img {
     height: 4rem;
     width: 4rem;
+    margin-right: 2rem;
   }
 
   .footer-bottom {
@@ -658,7 +659,7 @@ footer {
   }
 
   .footer-bottom p {
-    margin: 0 auto;
+    margin-left: 6rem;
   }
 }
 
