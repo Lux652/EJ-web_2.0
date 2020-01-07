@@ -589,8 +589,16 @@ footer {
 .menu-item{
   margin-right: 4rem;
 }
+.contact-page{
+  height: 100%;
+  padding-bottom: 5rem;
+}
 }
 @media only screen and (max-width: 768px) {
+  .contact-page{
+    height: 100%;
+    padding-bottom: 5rem;
+  }
   .menu,
   .social {
     position: absolute;
