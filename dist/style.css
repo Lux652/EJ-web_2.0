@@ -573,6 +573,11 @@ footer {
   .project-single-img-wrapper-d, .project-single-img-wrapper{
     margin-left: 27rem;
   }
+  .contact-page{
+    height: 100%;
+    padding-bottom: 5rem;
+  }
+
 }
 
 .mobile-menu {
