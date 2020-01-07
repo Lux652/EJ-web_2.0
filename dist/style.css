@@ -732,21 +732,21 @@ width:100%;
 
 
 @media only screen and (max-width:600px){
-  body{
-    padding: 0;
-  }
-
-  .menu{
-
-  }
+.navigation{
+  height: 100px;
+}
+.menu, .social{
+  top: 18vh;
+  margin-top: 2rem;
+}
   .menu-item{
-    margin: 3rem 0 0rem 0rem;
+    margin: 1rem 0 0rem 0rem;
     font-size: 2.4rem;
     margin-left: 2rem;
   }
 
   .menu-social{
-    margin-top:-2rem;
+    margin-top:-3rem;
     left: 2rem;
   }
   .menu-social:not(last-child){
