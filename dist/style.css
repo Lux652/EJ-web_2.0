@@ -569,12 +569,7 @@ footer {
 .toggle .line3{
   transform: rotate(45deg) translate(-4px,-6px);
 }
-/* 
-  .menu,
-  .social {
-    display: none;
-  }
- */
+
   .intro-text h1 {
     margin-left: 8rem;
     font-size: 4.8rem;
@@ -661,10 +656,10 @@ footer {
   .navigation{
     padding-left: 6rem;
   }
-  .menu,
+/*   .menu,
   .social {
     display: none;
-  }
+  } */
 
   .intro{
     height: auto;
