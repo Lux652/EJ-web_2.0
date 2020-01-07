@@ -744,9 +744,15 @@ width:100%;
 
   .menu-social{
     margin-top: -6rem;
+    left: 2rem;
   }
   .menu-social:not(last-child){
     margin-right: 3rem !important;
+  }
+
+  .social{
+    left: 2rem;
+    top: 50%;
   }
 
   .navigation{
