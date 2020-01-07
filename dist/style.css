@@ -139,9 +139,10 @@ header {
 a:active {
   color: #fee4b7;
 }
-.menu-item a:hover {
+.menu-item a:hover, .footer-menu-item a:hover {
   color: #fee4b7;
 }
+
 .menu-item:not(:last-child) {
   margin-right: 7rem;
 }
@@ -419,6 +420,7 @@ footer {
   margin: 0rem 8rem 0 39.9rem;
   width: 49%;
   padding-top: 15rem;
+  padding-bottom: 8rem;
 }
 .project-single-text h1 {
   font-size: 6rem;
@@ -763,6 +765,15 @@ width:100%;
 
 
 @media only screen and (max-width:600px){
+
+
+  .project-single-text{
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+  }
+
+
+
 .navigation{
   height: 100px;
 }
@@ -865,7 +876,7 @@ width: 80%;
   }
 
   .contact-text {
-    margin-left: 6rem;
+    margin-left: 2rem;
   }
 
   .contact-text h1,
@@ -889,7 +900,7 @@ width: 80%;
 
 
   .contact-social {
-    margin-left: 6rem;
+    margin-left: 2rem;
   }
 
   .footer-navigation {
@@ -908,9 +919,6 @@ width: 80%;
   }
 
   .footer-bottom p {
-    margin-left: 6rem;
+    margin-left: 2rem;
   }
 }
-
-
-
