@@ -767,7 +767,7 @@ width:100%;
   padding-bottom: 5rem;
 }
 .section-about .about-text {
-margin-left: -22rem !important;
+margin-left: 2rem !important;
 width: 80%;
   }
   .intro{
@@ -813,6 +813,10 @@ width: 80%;
 .section-about{
   width:100%;
 }
+
+.about-container{
+  margin-left: 0 !important;
+}
   .projects {
     margin: 0;
   }
@@ -821,7 +825,6 @@ width: 80%;
     margin-bottom: 0rem;
     height: 21rem;
   }
-
   .contact {
     height: auto;
   }
