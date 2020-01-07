@@ -765,8 +765,12 @@ width:100%;
 
 
 @media only screen and (max-width:600px){
-
-
+.about-container{
+  margin-top: 2rem;
+}
+.about-text h1{
+  font-size: 2.8rem;
+}
   .project-single-text{
     margin-left: 2rem;
     padding-bottom: 2rem;
