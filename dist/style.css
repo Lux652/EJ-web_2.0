@@ -520,7 +520,6 @@ footer {
 
 @media only screen and (max-width: 768px) {
 
-
   .menu, .social{
     position: absolute;
     right: 0px;
@@ -580,6 +579,7 @@ width:100%;
   .menu-social img{
     height: 40px;
     width: 40px;
+    margin-top: 6rem;
   }
 
   .burger{
@@ -677,12 +677,57 @@ width:100%;
 
   .footer-bottom {
     height: 0rem;
-    padding-bottom: 6rem;
+    padding-bottom: 0rem;
+    margin-top: -4rem;
+  }
+
+  .contact-bottom{
+    margin-top: 8rem;
   }
 
   .footer-bottom p {
     margin: 0 auto;
   }
+
+  .section-about{
+    height: 100%;
+    padding-bottom: 5rem;
+  }
+  .section-about .about-text {
+  margin-left: -22rem !important;
+  width: 80%;
+    }
+
+    .project-single{
+      height: auto;
+      margin-top: 2rem;
+/*       margin-left: -32rem; */
+    }
+
+    .project-single-img-wrapper{
+      width:100%;
+      margin-left: 0;
+    }
+    .project-single-img-wrapper-d{
+      width:100%;
+      margin-left: 0;
+    }
+    .project-single-img-wrapper img{
+      width:100%;
+    }
+    .project-single-img-wrapper-d img{
+      width:100%;
+    }
+
+    .project-single-text{
+      margin-left: 6rem;
+      margin-bottom: 3rem;
+      margin-top: -10rem;
+      width: 99%;
+    }
+    .project-single-text h1{
+      font-size: 2.8rem;
+    }
 }
 
 
@@ -704,11 +749,15 @@ width:100%;
   .navigation{
     padding-left: 6rem;
   }
-/*   .menu,
-  .social {
-    display: none;
-  } */
 
+  .section-about{
+  height: 100%;
+  padding-bottom: 5rem;
+}
+.section-about .about-text {
+margin-left: -22rem !important;
+width: 80%;
+  }
   .intro{
     height: auto;
     margin-bottom: 4rem;
