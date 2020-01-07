@@ -495,6 +495,11 @@ footer {
     margin-left: 15rem;
   }
 
+  .intro{
+    height: 100%;
+    padding-bottom:4rem;
+  }
+
   .about-container .img-wrapper{
     display: none;
   }
