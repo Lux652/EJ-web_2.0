@@ -810,7 +810,9 @@ width: 80%;
     width: 100%;
     line-height: 20px;
   }
-
+.section-about{
+  width:100%;
+}
   .projects {
     margin: 0;
   }
