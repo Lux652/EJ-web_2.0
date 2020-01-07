@@ -505,8 +505,17 @@ footer {
   .project-single-img-wrapper-d img {
     max-width: 100%;
   }
+  .contact-page{
+    height: 100%;
+    padding-bottom: 5rem;
+  }
 }
-
+@media only screen and (max-height:900px){
+  .contact-page{
+    height: 100%;
+    padding-bottom: 5rem;
+  }
+}
 @media only screen and (max-width: 1399px) {
   .menu {
     margin-left: 15rem;
