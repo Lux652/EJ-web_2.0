@@ -736,11 +736,11 @@ width:100%;
   height: 100px;
 }
 .menu, .social{
-  top: 18vh;
-  margin-top: 2rem;
+  top:50px;
+  margin-top: 3rem;
 }
   .menu-item{
-    margin: 1rem 0 0rem 0rem;
+    margin: 4rem 0 0rem 0rem;
     font-size: 2.4rem;
     margin-left: 2rem;
   }
