@@ -54,6 +54,36 @@ header {
   height:40px;
   width: 40px;
 }
+
+/* .logo-off{
+  display:none;
+}
+
+#logo:hover .logo-on{
+  display: ;
+}
+ */
+.logo-off, #logo:hover .logo-on{
+  display:none;
+  transition: all .3s ;
+}
+.logo-on, #logo:hover .logo-off{
+  display:block;
+  transition: all .3s ;
+}
+
+.img-off, #linkedin:hover .img-on, #instagram:hover .img-on, #dribble:hover .img-on{
+  display: none;
+  transition: all .3s ;
+}
+
+.img-on, #linkedin:hover .img-off, #instagram:hover .img-off, #dribble:hover .img-off{
+  display: block;
+  transition: all .3s ;
+}
+
+
+
 .footer-logo img{
   height:40px;
   width: 40px;
@@ -344,9 +374,10 @@ footer {
   height: 78.1vh;
 }
 .section-about {
-  height: 110vh;
+  height: 100%;
   display: inline-block;
   background-color: #272d33;
+  padding-bottom: 5rem;
 }
 .about-container {
   margin: 10rem 8rem 0 20.5rem;
