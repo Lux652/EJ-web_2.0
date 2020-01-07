@@ -488,6 +488,13 @@ footer {
   .footer-bottom {
     height: 4.2rem;
   }
+
+  .project-single-img-wrapper,.project-single-img-wrapper-d{
+    max-width: 100%;
+  }
+  .project-single-img-wrapper img, .project-single-img-wrapper-d img{
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1399px) {
