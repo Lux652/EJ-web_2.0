@@ -436,7 +436,7 @@ footer {
 .project-single-img-wrapper {
   margin-left: 39.9rem;
   background-color: #ebebeb;
-  max-width: 140rem;
+  max-width: 100%;
   margin-bottom: 2.5rem;
 }
 .project-single-img-wrapper-d {
@@ -447,8 +447,7 @@ footer {
   margin-bottom: -.5rem;
 }
 
-
-.project-single-img-wrapper img{
+.project-single-img-wrapper img, .project-single-img-wrapper-d img{
   max-width:100%;
   margin-bottom: -.5rem;
 }
