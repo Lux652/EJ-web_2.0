@@ -182,9 +182,24 @@ padding-bottom: 10rem;
   width: 750px;
   height: 420px;
   display: inline-block;
+  overflow: hidden;
 }
 
+.project img{
+  width:100%; -webkit-transition: all .3s ;
+		-moz-transition: all .3s ;
+        -ms-transition: all .3s ;
+        -o-transition: all .3s ;
+		transition: all .3s ;
+}
 
+.project:hover img{
+  width:110%; margin: 0 0 0 0; -webkit-transition: all .3s ;
+		-moz-transition: all .3s ;
+        -ms-transition: all .3s ;
+        -o-transition: all .3s ;
+		transition: all .3s ;
+}
 
 .contact {
   width: 100%;
