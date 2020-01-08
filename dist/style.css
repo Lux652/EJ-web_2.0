@@ -612,14 +612,11 @@ body{
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-/*     transform: translateX(0%); */
 z-index: 99;
 transform: scale(0,1);
 transform-origin: top right;
     transition: transform 0.5s ease-in;
     list-style: none;
-/*     z-index: -1;
-    opacity: 0; */
   }
 
   .mobile-menu-container{
@@ -639,15 +636,15 @@ transform-origin: top right;
 
   .social-mobile-container{
     display: flex;
-    flex-wrap: wrap;
+/*     flex-wrap: wrap; */
     margin-left: 8rem;
   }
 
   .social-mobile img{
     height: 40px;
     width: 40px;
-    margin-right: 6rem;
-    margin-top: 6rem;
+    margin-right: 4rem;
+    margin-top: 4rem;
   }
   .active{
     transform: scale(1,1);
@@ -805,6 +802,12 @@ transform-origin: top right;
 }
 
 @media only screen and (max-width: 600px) {
+
+  .mobile-menu{
+    height: 91vh;
+    top: 9vh;
+  }
+
   .about-container {
     margin-top: 2rem;
   }
