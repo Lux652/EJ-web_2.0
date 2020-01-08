@@ -804,8 +804,8 @@ transform-origin: top right;
 @media only screen and (max-width: 600px) {
 
   .mobile-menu{
-    height: 91vh;
-    top: 9vh;
+    height: 86vh;
+    top: 14vh;
   }
 
   .about-container {
