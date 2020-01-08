@@ -636,7 +636,6 @@ transform-origin: top right;
 
   .social-mobile-container{
     display: flex;
-/*     flex-wrap: wrap; */
     margin-left: 8rem;
   }
 
@@ -806,6 +805,17 @@ transform-origin: top right;
   .mobile-menu{
     height: 86vh;
     top: 14vh;
+  }
+
+  .mobile-menu-container{
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+
+
+  .social-mobile-container{
+    margin-left: 2rem;
   }
 
   .about-container {
