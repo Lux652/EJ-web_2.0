@@ -650,9 +650,6 @@ transform-origin: top right;
     margin-top: 6rem;
   }
   .active{
-/*     transform: translateX(0%);
-    z-index: 99;
-    opacity: 1; */
     transform: scale(1,1);
     z-index: 99;
     transition: transform 0.5s ease-in;
@@ -819,10 +816,10 @@ transform-origin: top right;
     padding-bottom: 2rem;
   }
 
-/*   .navigation {
+   .navigation {
     height: 100px;
   }
-  .menu,
+  /*.menu,
   .social {
     top: 50px;
     margin-top: 3rem;
@@ -850,9 +847,9 @@ transform-origin: top right;
     top: 50%;
   } */
 
-/*   .navigation {
+  .navigation {
     padding-left: 2rem;
-  } */
+  }
 
   .section-about {
     height: 100%;
